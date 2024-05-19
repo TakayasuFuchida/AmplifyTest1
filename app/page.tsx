@@ -32,8 +32,7 @@ export default function App() {
       content: window.prompt("Todo content"),
     });
   }
-
-    
+  
   function deleteTodo(id: string) {
     client.models.Todo.delete({ id })
   }
